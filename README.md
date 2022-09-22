@@ -1,13 +1,13 @@
 # АНАЛИЗ ДАННЫХ И ИСКУССТВЕННЫЙ ИНТЕЛЛЕКТ [in GameDev]
 Отчет по лабораторной работе #1 выполнил(а):
-- Иванова Ивана Варкравтовна
-- РИ000024
+- Кулева Дарья Андреевна
+- РИ210936
 Отметка о выполнении заданий (заполняется студентом):
 
 | Задание | Выполнение | Баллы |
 | ------ | ------ | ------ |
-| Задание 1 | # | 60 |
-| Задание 2 | # | 20 |
+| Задание 1 | * | 60 |
+| Задание 2 | * | 20 |
 | Задание 3 | # | 20 |
 
 знак "*" - задание выполнено; знак "#" - задание не выполнено;
@@ -25,11 +25,11 @@
 
 - Данные о работе: название работы, фио, группа, выполненные задания.
 - Цель работы.
-- Задание 1.
+- Задание 1.
 - Код реализации выполнения задания. Визуализация результатов выполнения (если применимо).
-- Задание 2.
+- Задание 2.
 - Код реализации выполнения задания. Визуализация результатов выполнения (если применимо).
-- Задание 3.
+- Задание 3.
 - Код реализации выполнения задания. Визуализация результатов выполнения (если применимо).
 - Выводы.
 - ✨Magic ✨
@@ -38,95 +38,69 @@
 Ознакомиться с основными операторами зыка Python на примере реализации линейной регрессии.
 
 ## Задание 1
-### Пошагово выполнить каждый пункт раздела "ход работы" с описанием и примерами реализации задач
+### Написать команды Hello World на Python и Unity
 Ход работы:
-- Произвести подготовку данных для работы с алгоритмом линейной регрессии. 10 видов данных были установлены случайным образом, и данные находились в линейной зависимости. Данные преобразуются в формат массива, чтобы их можно было вычислить напрямую при использовании умножения и сложения.
+- Для Python в отчете привести скриншоты с демонстрацией сохранения документа google.colab на свой диск с запуском программы, выводящей сообщение Hello World.
 
-```py
+![image](https://user-images.githubusercontent.com/113285427/190902788-e9ae55ba-94ea-4e97-8c73-512f05dcec15.png)
+![image](https://user-images.githubusercontent.com/113285427/190902800-aede4291-079c-40db-9b27-b1d9187892db.png)
+![image](https://user-images.githubusercontent.com/113285427/190902764-8f8ec67c-3e3e-494b-9db6-dca216e153fd.png)
 
-In [ ]:
-#Import the required modules, numpy for calculation, and Matplotlib for drawing
-import numpy as np
-import matplotlib.pyplot as plt
-#This code is for jupyter Notebook only
-%matplotlib inline
+- Для Unity в отчете привести скриншот вывода сообщения Hello World в консоль.
 
-# define data, and change list to array
-x = [3,21,22,34,54,34,55,67,89,99]
-x = np.array(x)
-y = [2,22,24,65,79,82,55,130,150,199]
-y = np.array(y)
-
-#Show the effect of a scatter plot
-plt.scatter(x,y)
-
-```
-
-- Определите связанные функции. Функция модели: определяет модель линейной регрессии wx+b. Функция потерь: функция потерь среднеквадратичной ошибки. Функция оптимизации: метод градиентного спуска для нахождения частных производных w и b.
-
+![image](https://user-images.githubusercontent.com/113285427/190913758-a288ccad-2bee-40aa-8249-5911e1650262.png)
+![image](https://user-images.githubusercontent.com/113285427/190913770-ccfd08de-9455-4896-83b6-d9a9728a901a.png)
 
 ## Задание 2
-### Должна ли величина loss стремиться к нулю при изменении исходных данных? Ответьте на вопрос, приведите пример выполнения кода, который подтверждает ваш ответ.
+### В разделе "Ход работы" пошагово выполнить каждый пункт с описанием и примером реализации задачи по теме лабораторной работы
 
-- Перечисленные в этом туториале действия могут быть выполнены запуском на исполнение скрипт-файла, доступного [в репозитории](https://github.com/Den1sovDm1triy/hfss-scripting/blob/main/ScreatingSphereInAEDT.py).
-- Для запуска скрипт-файла откройте Ansys Electronics Desktop. Перейдите во вкладку [Automation] - [Run Script] - [Выберите файл с именем ScreatingSphereInAEDT.py из репозитория].
+- 1 Произвести подготовку данных для работы с алгоритмом линейной регрессии. 10 видов данных были установлены случайным образом, и данные находились в линейной зависимости. Данные проебразуются в формат массива, чтобы их можно было вычислить напрямую при использовании умножения и сложения.
 
-```py
+![image](https://user-images.githubusercontent.com/113285427/190914941-e36e6abd-c38c-4316-b959-83754afe5710.png)
 
-import ScriptEnv
-ScriptEnv.Initialize("Ansoft.ElectronicsDesktop")
-oDesktop.RestoreWindow()
-oProject = oDesktop.NewProject()
-oProject.Rename("C:/Users/denisov.dv/Documents/Ansoft/SphereDIffraction.aedt", True)
-oProject.InsertDesign("HFSS", "HFSSDesign1", "HFSS Terminal Network", "")
-oDesign = oProject.SetActiveDesign("HFSSDesign1")
-oEditor = oDesign.SetActiveEditor("3D Modeler")
-oEditor.CreateSphere(
-	[
-		"NAME:SphereParameters",
-		"XCenter:="		, "0mm",
-		"YCenter:="		, "0mm",
-		"ZCenter:="		, "0mm",
-		"Radius:="		, "1.0770329614269mm"
-	], 
-)
+- 2 Определите связанные функции. Функция модели: определяет модель линейной регрессии wx+b. Функция потерь: функция потерь среднеквадратичной ошибки. Функция оптимизации: метод градиентного спуска для нахождения частных производных w и b.
 
-```
+![image](https://user-images.githubusercontent.com/113285427/190916488-c9f2340a-72b3-4104-94b8-d84432b500ca.png)
+
+- 3 Начать итерацию
+- - Шаг 1. Инициализация и модель итеративной оптимизации
+
+![image](https://user-images.githubusercontent.com/113285427/190916908-1a5e0d1a-f4ea-4d91-818f-c152f8ad1903.png)
+
+- - Шаг 2. На второй итерации отображаются значения параметров, значения потерь и эффекты визуализации после итерации
+
+![image](https://user-images.githubusercontent.com/113285427/190919757-365e157a-2d14-42f7-8ef4-395e3d36d8c5.png)
+
+- - Шаг 3. Третья итерация показывает значения параметров, значения потерь и визуализацию после итерации
+
+![image](https://user-images.githubusercontent.com/113285427/190918186-7e086aed-b2c2-4be4-9442-1d214a2708de.png)
+
+- - Шаг 4. На четвертой итерации отображаются значения параметров, значения потерь и эффекты визуализации
+
+![image](https://user-images.githubusercontent.com/113285427/190918244-059bb9b7-f79f-41fe-9e67-4e681bbbca73.png)
+
+- - Шаг 5. Пятая итерация показывает значение параметра, значение потерь и эффект визуализации после
+итерации
+
+![image](https://user-images.githubusercontent.com/113285427/190918314-65eb0dcd-dd4c-4f95-9b54-541513ae850e.png)
+
+- - Шаг 6. 10000-я итерация, показывающая занчения параметров, потери и визуализацию после итерации
+
+![image](https://user-images.githubusercontent.com/113285427/190918389-9f1dc02f-76fc-4f29-a2d6-25eb4627e669.png)
 
 ## Задание 3
-### Какова роль параметра Lr? Ответьте на вопрос, приведите пример выполнения кода, который подтверждает ваш ответ. В качестве эксперимента можете изменить значение параметра.
+### Изучить код на Python и ответить на вопросы:
 
-- Перечисленные в этом туториале действия могут быть выполнены запуском на исполнение скрипт-файла, доступного [в репозитории](https://github.com/Den1sovDm1triy/hfss-scripting/blob/main/ScreatingSphereInAEDT.py).
-- Для запуска скрипт-файла откройте Ansys Electronics Desktop. Перейдите во вкладку [Automation] - [Run Script] - [Выберите файл с именем ScreatingSphereInAEDT.py из репозитория].
+- Должна ли величина loss стремиться к нулю при изменении исходных данных? Ответьте на вопрос, приведите пример выполнения кода, который подтверждает ваш ответ.
 
-```py
-
-import ScriptEnv
-ScriptEnv.Initialize("Ansoft.ElectronicsDesktop")
-oDesktop.RestoreWindow()
-oProject = oDesktop.NewProject()
-oProject.Rename("C:/Users/denisov.dv/Documents/Ansoft/SphereDIffraction.aedt", True)
-oProject.InsertDesign("HFSS", "HFSSDesign1", "HFSS Terminal Network", "")
-oDesign = oProject.SetActiveDesign("HFSSDesign1")
-oEditor = oDesign.SetActiveEditor("3D Modeler")
-oEditor.CreateSphere(
-	[
-		"NAME:SphereParameters",
-		"XCenter:="		, "0mm",
-		"YCenter:="		, "0mm",
-		"ZCenter:="		, "0mm",
-		"Radius:="		, "1.0770329614269mm"
-	], 
-)
-
-```
+- Какова роль параметра Lr? Ответьте на вопрос, приведите пример выполнения кода, который подтверждает ваш ответ. В качестве эксперимента можете изменить значение параметра.
 
 ## Выводы
 
 Абзац умных слов о том, что было сделано и что было узнано.
 
 | Plugin | README |
-| ------ | ------ |
+| —--— | —--— |
 | Dropbox | [plugins/dropbox/README.md][PlDb] |
 | GitHub | [plugins/github/README.md][PlGh] |
 | Google Drive | [plugins/googledrive/README.md][PlGd] |
