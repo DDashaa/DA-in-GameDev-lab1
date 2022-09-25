@@ -56,37 +56,54 @@
 
 - 1 Произвести подготовку данных для работы с алгоритмом линейной регрессии. 10 видов данных были установлены случайным образом, и данные находились в линейной зависимости. Данные проебразуются в формат массива, чтобы их можно было вычислить напрямую при использовании умножения и сложения.
 
-![image](https://user-images.githubusercontent.com/113285427/190914941-e36e6abd-c38c-4316-b959-83754afe5710.png)
+![image](https://user-images.githubusercontent.com/113285427/191805748-85d78de3-02a3-4cc9-982d-29767badb9b8.png)
 
-- 2 Определите связанные функции. Функция модели: определяет модель линейной регрессии wx+b. Функция потерь: функция потерь среднеквадратичной ошибки. Функция оптимизации: метод градиентного спуска для нахождения частных производных w и b.
+- 2 Определите связанные функции. 
 
-![image](https://user-images.githubusercontent.com/113285427/190916488-c9f2340a-72b3-4104-94b8-d84432b500ca.png)
+
+
+- Функция модели: определяет модель линейной регрессии wx+b. 
+![image](https://user-images.githubusercontent.com/113285427/192143629-3ed15064-4146-426d-933d-e623247de0f4.png)
+
+
+- Функция потерь: функция потерь среднеквадратичной ошибки. 
+
+![image](https://user-images.githubusercontent.com/113285427/192143641-74a7e8c1-f9c0-47ed-a9ee-90579b31ed14.png)
+
+- Функция оптимизации: метод градиентного спуска для нахождения частных производных w и b.
+
+![image](https://user-images.githubusercontent.com/113285427/192143694-258e38f1-a6e2-4c1a-bb5d-728d78a11134.png)
+
+- Функция итерации: вощвращение значений a и b
+
+![image](https://user-images.githubusercontent.com/113285427/192143709-d4a3a70d-1f39-4a1f-bbf1-d641ab6b717c.png)
 
 - 3 Начать итерацию
 - - Шаг 1. Инициализация и модель итеративной оптимизации
 
-![image](https://user-images.githubusercontent.com/113285427/190916908-1a5e0d1a-f4ea-4d91-818f-c152f8ad1903.png)
+![image](https://user-images.githubusercontent.com/113285427/191805880-8fe62273-8613-4e2a-847f-0f20191679bf.png)
 
 - - Шаг 2. На второй итерации отображаются значения параметров, значения потерь и эффекты визуализации после итерации
 
-![image](https://user-images.githubusercontent.com/113285427/190919757-365e157a-2d14-42f7-8ef4-395e3d36d8c5.png)
+![image](https://user-images.githubusercontent.com/113285427/191805949-2ed0c3f2-32af-48e1-b372-cf365cbfba4f.png)
 
 - - Шаг 3. Третья итерация показывает значения параметров, значения потерь и визуализацию после итерации
 
-![image](https://user-images.githubusercontent.com/113285427/190918186-7e086aed-b2c2-4be4-9442-1d214a2708de.png)
+![image](https://user-images.githubusercontent.com/113285427/191806010-7becddbf-b2ac-4b4e-8b53-6d8e97e2b5dc.png)
 
 - - Шаг 4. На четвертой итерации отображаются значения параметров, значения потерь и эффекты визуализации
 
-![image](https://user-images.githubusercontent.com/113285427/190918244-059bb9b7-f79f-41fe-9e67-4e681bbbca73.png)
+![image](https://user-images.githubusercontent.com/113285427/191806059-201fedee-ffe1-4e01-ab74-ad2353b229ca.png)
 
 - - Шаг 5. Пятая итерация показывает значение параметра, значение потерь и эффект визуализации после
 итерации
 
-![image](https://user-images.githubusercontent.com/113285427/190918314-65eb0dcd-dd4c-4f95-9b54-541513ae850e.png)
+![image](https://user-images.githubusercontent.com/113285427/191806106-a40a4bfd-8df3-4e80-abb3-550242105476.png)
 
 - - Шаг 6. 10000-я итерация, показывающая занчения параметров, потери и визуализацию после итерации
 
-![image](https://user-images.githubusercontent.com/113285427/190918389-9f1dc02f-76fc-4f29-a2d6-25eb4627e669.png)
+![image](https://user-images.githubusercontent.com/113285427/191806158-aedd731b-4018-4177-8ca2-91fb572c5ad4.png)
+
 
 ## Задание 3
 ### Изучить код на Python и ответить на вопросы:
@@ -97,17 +114,12 @@
 
 ## Выводы
 
-Абзац умных слов о том, что было сделано и что было узнано.
-
-| Plugin | README |
-| —--— | —--— |
-| Dropbox | [plugins/dropbox/README.md][PlDb] |
-| GitHub | [plugins/github/README.md][PlGh] |
-| Google Drive | [plugins/googledrive/README.md][PlGd] |
-| OneDrive | [plugins/onedrive/README.md][PlOd] |
-| Medium | [plugins/medium/README.md][PlMe] |
-| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
-
+В ходе выполнения лабораторной работы:
+- Я установила такие ПО как: Unity, Visual Studio Code, Anacondа;
+- Используя элементарные функции языка Python, вывела на экран надпись "Hello World" в Google Colab, ознакомилась с функциями облачной среды;
+- Используя элементарные функции языка C#, вывела на консоль надпись "Hello World" в Unity, ознакомилась с функциями платформы;
+- А также в ходе выполнения второго задания познакомилась с основными операторами языка Python на примере реализации линейной регрессии. 
 ## Powered by
 
 **BigDigital Team: Denisov | Fadeev | Panov**
+
