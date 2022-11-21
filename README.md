@@ -54,6 +54,8 @@
 
 -Добавляем RollerAgent скрипт RollerAgent.cs
 
+```py
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -110,6 +112,8 @@ public class RollerAgent : Agent
         }
     }
 }
+
+```
 
 - Далее, пропуская некоторые пункты, описанные в Методичке, переходим к пункту "Запустите работу ml-агента"
 ![image](https://user-images.githubusercontent.com/113285427/203015127-1f5ef44f-fc9d-4b3b-8624-68aac355a35b.png)
