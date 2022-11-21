@@ -52,7 +52,7 @@
 -torch использует ПК для создании потоков, распределений
 ![image](https://user-images.githubusercontent.com/113285427/201112373-dbfbc0b0-76fb-4aa5-b93c-dfdc61e2db1b.png)
 
--Добавляем RollerAgentу скрипт RollerAgent.cs
+- Добавляем RollerAgentу скрипт RollerAgent.cs
 
 ```py
 
@@ -115,7 +115,7 @@ public class RollerAgent : Agent
 
 ```
 
--Добавим Decision Requester и Behavior Parameters для RollerAgentа
+- Добавим Decision Requester и Behavior Parameters для RollerAgentа
 ![image](https://user-images.githubusercontent.com/113285427/203022467-85ace1a8-6593-49c5-80c9-f15ddd8bd6b6.png)
 
 - Далее, добавив в корень проекта файл конфигурации, запускаем работу ml-агента
