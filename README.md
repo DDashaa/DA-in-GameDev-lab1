@@ -186,7 +186,7 @@ public class Perceptron : MonoBehaviour {
 
 ![image](https://user-images.githubusercontent.com/113285427/204639093-96e50cad-9257-4d34-befc-ffa34a63aaf0.png)
 
-Необходимое количество эпох обучения зависит от 
+Необходимое количество эпох обучения зависит от смещения(weights) и веса(bias).
 
 ## Задание 3
 ### Построить визуальную модель работы перептрона на сцене Unity.
