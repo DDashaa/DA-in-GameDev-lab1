@@ -45,6 +45,8 @@
 - XOR |дать комментарии о корректности работы
 
 Ход работы:
+- Создаю пустой проект на Unity. Добавляю пустой объект Empty Game Object с именем Perceptron. Подключаю Perceptron.cs к пустому Game Object с именем Perceptron.
+![image](https://user-images.githubusercontent.com/113285427/204619293-2c5ef24b-ed82-426c-9073-549326192254.png)
 
 
 ## Задание 2
