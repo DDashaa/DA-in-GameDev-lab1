@@ -175,6 +175,13 @@ public class Perceptron : MonoBehaviour {
 
 ## Задание 2
 ### Построить график зависимости количества эпох от ошибки обучения. Указать от чего зависит необходимое количество эпох обучения.
+![image](https://user-images.githubusercontent.com/113285427/204638941-c27bdbfa-e042-4f64-a1e6-95eca1c70f8c.png)
+
+![image](https://user-images.githubusercontent.com/113285427/204638986-f5c05dd6-72b0-495b-9ed3-61ba8d53d2e7.png)
+
+![image](https://user-images.githubusercontent.com/113285427/204639054-2f3b2642-89ce-401e-8853-ed140850101d.png)
+
+![image](https://user-images.githubusercontent.com/113285427/204639093-96e50cad-9257-4d34-befc-ffa34a63aaf0.png)
 
 
 
