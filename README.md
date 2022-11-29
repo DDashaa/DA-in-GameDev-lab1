@@ -190,7 +190,7 @@ public class Perceptron : MonoBehaviour {
 
 ## Задание 3
 ### Построить визуальную модель работы перептрона на сцене Unity.
-
+https://skr.sh/vH95jaai9gw
 
 ## Выводы
 
