@@ -190,15 +190,54 @@ public class Perceptron : MonoBehaviour {
 
 ## Задание 3
 ### Построить визуальную модель работы перептрона на сцене Unity.
-https://skr.sh/vH95jaai9gw
+- Создала модель для работы AND, белые кубы - 0, черные - 1
+
+![image](https://user-images.githubusercontent.com/113285427/204657980-041f11f5-0785-44d1-8f7b-353d95181168.png)
+
+- Пишем скрипт для изменения цвета при столкновении:
+
+```py
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class ChangeColor : MonoBehaviour
+{
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.GetComponent<Renderer>().material.color == Color.black && this.gameObject.GetComponent<Renderer>().material.color == Color.black)
+        {
+            other.gameObject.GetComponent<Renderer>().material.color = Color.black;
+            this.gameObject.GetComponent<Renderer>().material.color = Color.black;
+        }
+        else if (other.gameObject.GetComponent<Renderer>().material.color == Color.black && this.gameObject.GetComponent<Renderer>().material.color == Color.white)
+        {
+            other.gameObject.GetComponent<Renderer>().material.color = Color.white;
+            this.gameObject.GetComponent<Renderer>().material.color = Color.white;
+        }
+        else if (other.gameObject.GetComponent<Renderer>().material.color == Color.white && this.gameObject.GetComponent<Renderer>().material.color == Color.black)
+        {
+            other.gameObject.GetComponent<Renderer>().material.color = Color.white;
+            this.gameObject.GetComponent<Renderer>().material.color = Color.white;
+        }
+        else if (other.gameObject.GetComponent<Renderer>().material.color == Color.white && this.gameObject.GetComponent<Renderer>().material.color == Color.white) {
+            other.gameObject.GetComponent<Renderer>().material.color = Color.white;
+            this.gameObject.GetComponent<Renderer>().material.color = Color.white;
+        }
+    }
+}
+
+```
+- Запуск:
+
+
+Видео:https://skr.sh/vH97Ea12amp
+
 
 ## Выводы
 
-В ходе выполнения лабораторной работы:
-- Я установила такие ПО как: Unity, Visual Studio Code, Anacondа;
-- Используя элементарные функции языка Python, вывела на экран надпись "Hello World" в Google Colab, ознакомилась с функциями облачной среды;
-- Используя элементарные функции языка C#, вывела на консоль надпись "Hello World" в Unity, ознакомилась с функциями платформы;
-- А также в ходе выполнения второго задания познакомилась с основными операторами языка Python на примере реализации линейной регрессии. 
+
 ## Powered by
 
 **BigDigital Team: Denisov | Fadeev | Panov**
