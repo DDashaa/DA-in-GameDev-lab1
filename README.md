@@ -45,8 +45,10 @@
 - XOR |дать комментарии о корректности работы
 
 Ход работы:
-- Создаю пустой проект на Unity. Добавляю пустой объект Empty Game Object с именем Perceptron. Подключаю Perceptron.cs к пустому Game Object с именем Perceptron.
+- Создаю пустой проект на Unity. Добавляю пустой объект Empty Game Object с именем Perceptron. 
 ![image](https://user-images.githubusercontent.com/113285427/204619293-2c5ef24b-ed82-426c-9073-549326192254.png)
+
+- Подключаю Perceptron.cs к пустому Game Object с именем Perceptron.
 
 ```py
 
@@ -152,8 +154,22 @@ public class Perceptron : MonoBehaviour {
 }
 
 ```
+
+- OR |Для корректной работы понадобилось 4 эпохи
+![image](https://user-images.githubusercontent.com/113285427/204625866-0110e61c-1040-4512-aa12-9951a7bdd8d4.png)
+
+- AND |Для корректной работы оптимальным значением количества эпох является 7
+![image](https://user-images.githubusercontent.com/113285427/204628027-27fe1561-e9fb-480f-a78f-8004b97d296d.png)
+
+- NAND |Для корректной работы понадобилось 6 эпох
+![image](https://user-images.githubusercontent.com/113285427/204629221-c89ef1c6-aee6-4dfb-9004-ea02b263077f.png)
+
+- XOR |Корректной работы не получилось добиться, колличество ошибок стандартно 4, максимальное значение Train использовала 1000
+![image](https://user-images.githubusercontent.com/113285427/204630687-093d1bba-5703-4716-bbc8-b2eaebe584f4.png)
+
+
 ## Задание 2
-### Построить график зависимости количества эпох от оштбки обучения. Указать от чего зависит необходимое количество эпох обучения.
+### Построить график зависимости количества эпох от ошибки обучения. Указать от чего зависит необходимое количество эпох обучения.
 
 
 
