@@ -213,6 +213,8 @@ public class Move : Agent
 mlagents-learn Economic.yaml --run-id=Economic –-force
 ```
 
+![image](https://user-images.githubusercontent.com/113285427/205160509-a1d63277-4066-4da2-8137-e4cb61be58b1.png)
+
 ![image](https://user-images.githubusercontent.com/113285427/205111552-4ab55dc6-0d31-49cc-a788-2c25c2c1cc35.png)
 
 ![image](https://user-images.githubusercontent.com/113285427/205111583-25d88c41-9513-474f-9662-86bc636e4f44.png)
