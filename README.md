@@ -50,8 +50,15 @@
 
 ![image](https://user-images.githubusercontent.com/113285427/205123218-1c7ccbc1-2b29-4057-8e49-3bb4dbbdd042.png)
 
-- Затем необходимо перейти в папку с проектом и начать обучение модели.
+- Затем я зашла в папку с проектом и начала обучение модели.
 
+![image](https://user-images.githubusercontent.com/113285427/205161254-18d82ac4-0f6a-42e5-be0b-4662ae038255.png)
+
+- Чтобы посмотреть результаты обучения на графиках, я установила TensorBoard.
+
+```py
+pip install tensorflow
+```
 
 - Обучим модель и с помощью графиков и посмотрим на результат обучения:
 
@@ -65,11 +72,7 @@ mlagents-learn Economic.yaml --run-id=Economic –-force
 
 ![image](https://user-images.githubusercontent.com/113285427/205111583-25d88c41-9513-474f-9662-86bc636e4f44.png)
 
-Установим TensorBoard для оценки результатов обучения:
 
-```py
-pip install tensorflow
-```
 
 ![image](https://user-images.githubusercontent.com/113285427/205111705-56a87e94-4805-4245-b255-e57f31839b95.png)
 
