@@ -68,13 +68,6 @@ mlagents-learn Economic.yaml --run-id=Economic –-force
 
 ![image](https://user-images.githubusercontent.com/113285427/205160509-a1d63277-4066-4da2-8137-e4cb61be58b1.png)
 
-![image](https://user-images.githubusercontent.com/113285427/205111552-4ab55dc6-0d31-49cc-a788-2c25c2c1cc35.png)
-
-![image](https://user-images.githubusercontent.com/113285427/205111583-25d88c41-9513-474f-9662-86bc636e4f44.png)
-
-
-
-![image](https://user-images.githubusercontent.com/113285427/205111705-56a87e94-4805-4245-b255-e57f31839b95.png)
 
 Вот такие результаты можно будет увидеть после выполнения команды, перейдя на локальный хост - http://localhost:6006/:
 
@@ -82,7 +75,7 @@ mlagents-learn Economic.yaml --run-id=Economic –-force
 tensorboard --logdir=results\Economic
 ```
 
-![image](https://user-images.githubusercontent.com/113285427/205112088-595efe4b-ad44-4183-950a-ad59f74b2f4a.png)
+![image](https://user-images.githubusercontent.com/113285427/205161901-06002710-fde9-4041-84e0-adb138c7abeb.png)
 
 В первом запуске использовались следующие параметры в .yaml файле:
 
