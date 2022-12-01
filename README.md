@@ -164,11 +164,6 @@ epsilon: 0.1
 
 Cumulative Reward всегда увеличивается, а Policy Loss - уменьшается. Это самая успешная тренировка из пяти.
 
-- Посмторим на графики всех пяти тренировок вместе:
-
-![image](https://user-images.githubusercontent.com/113285427/205113531-c4972879-68bb-482f-aa81-d35216543a3e.png)
-
-![image](https://user-images.githubusercontent.com/113285427/205113569-431aa576-5458-4dd1-b3b9-ec1fcf3957e3.png)
 
 Можно сделать небольшой вывод: параметры epsilon, learning_rate и strength оказывают влияние на обучение модели. Лучший результат показало уменьшение параметра epsilon.
 
