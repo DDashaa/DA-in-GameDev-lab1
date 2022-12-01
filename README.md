@@ -46,24 +46,10 @@
 
 ![image](https://user-images.githubusercontent.com/113285427/205120957-6a9cac62-9a1e-451e-9517-cf104ec430db.png)
 
-- С помощью Anaconda Prompt активировала новый ML-агент и установила новые библиотеки: mlagents 0.28.0, torch 1.7.1. 
+- Создала актуальное виртуальное пространство: с помощью Anaconda Prompt активировала новый ML-агент и установила новые библиотеки: mlagents 0.28.0, torch 1.7.1. 
+![image](https://user-images.githubusercontent.com/113285427/205122617-d0d9bd2b-7578-42af-b180-24f6dd1f6a36.png)
 
-```py
-conda create -n MLAgents python=3.6
-conda activate MLAgents
-```
-
-![image](https://user-images.githubusercontent.com/113285427/205110491-10a8f33e-ac9b-4ee6-af84-4c500dab1e65.png)
-
-```py
-pip install mlagents==0.28.0
-```
-
-![image](https://user-images.githubusercontent.com/113285427/205110682-e9610bd3-d37d-48ba-970a-4760f43c0069.png)
-
-```py
-pip install torch~=1.7.1 -f https://download.pytorch.org/whl/torch_stable.html
-```
+![image](https://user-images.githubusercontent.com/113285427/205123218-1c7ccbc1-2b29-4057-8e49-3bb4dbbdd042.png)
 
 - Затем необходимо перейти в папку с проектом и начать обучение модели.
 
